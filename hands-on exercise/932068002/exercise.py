@@ -5,9 +5,7 @@ import time
 
 class RainDropsAnimation(pyglet.window.Window):
     def __init__(self, width = None, height = None):
-        pyglet.window.Window.__init__(self,
-                                      width = width,
-                                      height = height)
+        pyglet.window.Window.__init__(self, width = width, height = height)
         self.drawableObjects = []
         self.createDrawableObjects()
 
@@ -19,9 +17,7 @@ class RainDropsAnimation(pyglet.window.Window):
         num_rows = 4
         num_columns = 1
         droplet = 'C:\\Users\\amir\\image\\droplet.png'
-        animation = self.setup_animation(droplet,
-                                         num_rows,
-                                         num_columns)
+        animation = self.setup_animation(droplet, num_rows, num_columns)
 
         self.dropletSprite = pyglet.sprite.Sprite(animation)
         self.dropletSprite.position = (0,0)
@@ -41,9 +37,7 @@ class RainDropsAnimation(pyglet.window.Window):
         @type num_columns: int
         """
         base_image = pyglet.image.load(img)
-        animation_grid = pyglet.image.ImageGrid(base_image,
-                                                num_rows,
-                                                num_columns)
+        animation_grid = pyglet.image.ImageGrid(base_image, num_rows, num_columns)
         image_frames = []
 
         for i in range(num_rows*num_columns, 0, -1):
