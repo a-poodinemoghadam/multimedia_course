@@ -1,55 +1,5 @@
 #author: 932068002
 #exercise: Time for action – raindrops animation (page 114)
-#-------------------------------------------------------------------------------
-# @author: Ninad Sathaye
-# @copyright: 2010, Ninad Sathaye email:ninad.consult@gmail.com.
-# @license: This program is free software: you can redistribute it and/or modify
-#           it under the terms of the GNU General Public License as published by
-#           the Free Software Foundation, either version 3 of the License, or
-#           (at your option) any later version.
-#
-#           This program is distributed in the hope that it will be useful,
-#           but WITHOUT ANY WARRANTY; without even the implied warranty of
-#           MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#           GNU General Public License for more details.
-#
-#           You should have received a copy of the GNU General Public License
-#           along with this program.  If not, see <http://www.gnu.org/licenses/>.
-# @summary:
-#    -  This file, RainDropsAnimation.py is an example that shows how to create
-#      an animation by using different regions of a single image. It uses
-#      Python and Pyglet to accomplish this. This example also illustrates
-#      how to add mouse controls to an animation.
-#
-#    -   It is created as an illustration for Chapter 4 section ,
-#        'Animations Using Different Image Regions' of the book:
-#       "Python Multimedia Applications Beginners Guide"
-#       Publisher: Packt Publishing.
-#       ISBN: [978-1-847190-16-5]
-#
-# Dependencies
-#---------------
-#  In order to run the program the following packages need to be installed and
-#  appropriate environment variables need to be set (if it is not done by the
-#  installer automatically.)
-# 1. Python 2.6
-# 2. Pyglet 1.1.4 or later for Python 2.6
-#
-# @Note:
-#   You should have Python2.6 installed. The python executable
-#   PATH should also be  specified as an environment variable , so that
-#   "python" is a known command when run from command prompt.
-#
-# *Running the program:
-#  Put this file in a directory and create a sub-directory 'images'
-#  Then put the image file droplet.png in the 'images' directory
-#  and run the program as:
-#
-#  $python RainDropsAnimation.py
-#
-#  This will show the animation in a pyglet window.
-#-------------------------------------------------------------------------------
-
 import pyglet
 import time
 
